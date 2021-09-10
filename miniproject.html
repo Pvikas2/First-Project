@@ -12,21 +12,32 @@
 </head>
 <body>
    <header>
-    <nav class="navbar navbar-dark bg-dark">
       <!-- Navbar content -->
-      <ul class="list-group">
-        <div class="text-heading">
-          <img src="./Assetts/Logo.png" />
-          <li> VP_Creation</li>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="./Assetts/Logo.png" style="width: 20px;height: 20px;"/> VP_Creation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nature">Natural</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#award">Awards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+          </ul>
         </div>
-        <div>
-        <li class="list-type">Home</li>
-        <li class="list-type">Work</li>
-        <li class="list-type">Award</li>
-        <li class="list-type">About me</li>
-      </div>
-      </ul>
-    </nav>
+      </nav>
    </header>
 
 
@@ -39,7 +50,7 @@
   </div>
 
   <section class="section section-light">
-    <h2>Software Developer Work Click</h2>
+    <h2 id="work">Software Developer Work Click</h2>
     <ul style="list-style: none;">
       <li>Look at your picture carefully and take a few moments to think before you start talking.</li>
      <li> Talk for all the time you are given. If you have one minute to do the task, use every second.</li>
@@ -56,7 +67,7 @@
   </div>
 
   <section class="section section-dark">
-    <h2>Natural Click </h2>
+    <h2 id="nature">Natural Click </h2>
     <ul style="list-style: none;">
       <li>Look at your picture carefully and take a few moments to think before you start talking.</li>
      <li> Talk for all the time you are given. If you have one minute to do the task, use every second.</li>
@@ -72,7 +83,7 @@
     </div>
   </div>
 
-  <section class="section section-dark">
+  <section id="award" class="section section-dark">
     <h2> Achivements</h2>
     <ul style="list-style: none;">
       <li>Look at your picture carefully and take a few moments to think before you start talking.</li>
